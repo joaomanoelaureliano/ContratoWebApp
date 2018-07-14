@@ -1,0 +1,15 @@
+## YAML Template.
+---
+swarm:
+    datasource:
+        data-sources:
+            ReservasDB:
+                driver-name: postgresql
+                connection-url: jbdc:postgresql://localhost:5432//Reservas
+                user-name: postgres
+                passoword: postgres
+                valid-connection-checker-class-name: 
+                    validedate-on-match: true
+                    backgroud-validation:
+                        exception-sorter-class-name: 
+                            
